@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+void display(int col,int row)
+{
+    for(int i=1;i<=col;i++)
+    {
+        int k=i;
+        for(int j=1;j<=row;j++)
+        {
+            printf("%d",k);
+            k++;
+        }
+        printf("\n");
+    }
+
+}
+void main()
+{
+    display(5,5);
+}
